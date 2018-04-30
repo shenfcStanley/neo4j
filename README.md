@@ -11,3 +11,6 @@ c. username, password
 
 START n=node(*) RETURN n;
 
+3. delete nodes
+
+START n=node(*), r=rel(*) DELETE r, n
